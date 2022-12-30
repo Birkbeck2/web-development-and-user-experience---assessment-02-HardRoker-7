@@ -1,6 +1,6 @@
 body {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-color: #5C7AFF;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 
 section {
     width: 80vw;
-    height: 80vh;
+    height: 190vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,4 +61,137 @@ div {
     background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/waffles-gd7d530cde_1920.jpg?raw=true");
     background-position: center;
     background-size: cover;
+}
+
+.mediaTop div:nth-of-type(5) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/candes-1952997_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(6) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/ramen-7187810_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(7) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/noodles-516635_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(8) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/mushrooms-389421_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(9) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/meal-gd261a872c_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(10) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/hors-doeuvre-2175326_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(11) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/food-3372003_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(12) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/food-2362678_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(13) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/fig-3640553_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(14) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/eclair-3366430_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(15) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/easter-4948871_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(16) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/cookies-g09f0373b4_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.mediaTop div:nth-of-type(17) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/chocolate-2764581_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(18) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/cheese-1371196_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(19) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/bread-4077812_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(20) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/bread-1281053.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(21) {
+    /* background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/berries-g2680066e3_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover; */
+}
+
+.mediaTop div:nth-of-type(22) {
+    /* background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/artichoke-3386681_1920.jpg?raw=true"); */
+    background-position: center;
+    background-size: cover;
+}
+
+/* 
+.mediaTop div:nth-of-type(23) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/cookies-g09f0373b4_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(24) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/easter-4948871_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(25) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/cookies-g09f0373b4_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+} */
+video {
+    object-position: top;
+    object-fit: contain;
 }
