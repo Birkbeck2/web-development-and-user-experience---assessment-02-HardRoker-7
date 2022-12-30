@@ -1,0 +1,64 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #5C7AFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.mediaTop {
+
+    background-color: #4A8FE7;
+}
+
+
+
+.mediaBottom {
+
+    background-color: #59D2FE;
+}
+
+div {
+    width: 220px;
+    height: 180px;
+    border: 2px solid #44E5E7;
+
+
+}
+
+.mediaTop div:nth-of-type(1) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/candes-1952997_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(2) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/cake-balls-4139982_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(3) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/canape-2802_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
+
+.mediaTop div:nth-of-type(4) {
+    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/waffles-gd7d530cde_1920.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+}
