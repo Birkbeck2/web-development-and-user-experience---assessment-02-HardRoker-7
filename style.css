@@ -6,7 +6,7 @@ body {
     background-color: #fec89a;
     margin: 0;
     text-align: center;
-    background-image: url("https://github.com/HardRoker-7/Project-1/blob/main/FoodImagesVideo/ramen-7187810_1920.jpg?raw=true");
+    background-image: url("ramen-7187810_1920.jpg");
     background-position: center;
     color: #f8edeb;
 
@@ -41,7 +41,7 @@ section {
 
 }
 
-div {   
+div {
     width: 10vw;
     height: 20vh;
     background-color: #f8edeb;
@@ -63,8 +63,13 @@ footer {
     margin-bottom: 20px;
 }
 
+.southAmerica,
+.northAmerica,
 .new,
 .old,
+.asia,
+.africa,
+.australia,
 footer {
     margin: 10px 0 10px 300px;
     border-radius: 12px;
@@ -76,7 +81,7 @@ a {
     ;
 }
 
-.old a {
+.southAmerica .northAmerica .australia .africa .asia .old a {
     color: #f8edeb;
 }
 
@@ -121,5 +126,96 @@ a {
     background-position: center;
 }
 
-/* Media page styling */
 
+
+/* countries styling for container */
+
+
+.asia div:nth-of-type(1) {
+    background-image: url("https://images.pexels.com/photos/7824514/pexels-photo-7824514.jpeg?auto=compress&cs=tinysrgb&w=215");
+    background-position: center;
+}
+
+.asia div:nth-of-type(2) {
+    background-image: url("https://images.pexels.com/photos/2412603/pexels-photo-2412603.jpeg?auto=compress&cs=tinysrgb&w=150");
+    background-position: center;
+}
+
+
+
+.asia div:nth-of-type(3) {
+    background-image: url("https://images.pexels.com/photos/1108701/pexels-photo-1108701.jpeg?auto=compress&cs=tinysrgb&w=220");
+    background-position: center;
+}
+
+.asia div:nth-of-type(4) {
+    background-image: url("https://images.pexels.com/photos/3018977/pexels-photo-3018977.jpeg?auto=compress&cs=tinysrgb&w=200");
+    background-position: center;
+
+}
+
+/* styling for african countries  */
+
+
+.africa div:nth-of-type(1) {
+    background-image: url("https://images.pexels.com/photos/11313729/pexels-photo-11313729.jpeg?auto=compress&cs=tinysrgb&w=220");
+    background-position: center;
+}
+
+.africa div:nth-of-type(2) {
+    background-image: url("https://images.pexels.com/photos/3581916/pexels-photo-3581916.jpeg?auto=compress&cs=tinysrgb&w=220");
+    background-position: center;
+}
+
+.africa div:nth-of-type(3) {
+    background-image: url("https://images.pexels.com/photos/3199399/pexels-photo-3199399.jpeg?auto=compress&cs=tinysrgb&w=200");
+    background-position: center;
+}
+
+.africa div:nth-of-type(4) {
+    background-image: url("https://images.pexels.com/photos/2386192/pexels-photo-2386192.jpeg?auto=compress&cs=tinysrgb&w=200");
+    background-position: center;
+}
+
+/* styling for australian countries  */
+.australia div:nth-of-type(1) {
+    background-image: url("https://images.pexels.com/photos/5326974/pexels-photo-5326974.jpeg?auto=compress&cs=tinysrgb&w=170");
+    background-position: center;
+}
+
+.australia div:nth-of-type(2) {
+    background-image: url("https://images.pexels.com/photos/11434413/pexels-photo-11434413.jpeg?auto=compress&cs=tinysrgb&w=200");
+    background-position: center;
+}
+
+/* styling for North American countries  */
+.northAmerica div:nth-of-type(1) {
+    background-image: url("https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&w=300");
+    background-position: center;
+}
+
+.northAmerica div:nth-of-type(2) {
+    background-image: url("https://images.pexels.com/photos/64271/queen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg?auto=compress&cs=tinysrgb&w=180");
+    background-position: center;
+}
+
+.northAmerica div:nth-of-type(3) {
+    background-image: url("https://images.pexels.com/photos/12282043/pexels-photo-12282043.jpeg?auto=compress&cs=tinysrgb&w=145");
+    background-position: center;
+}
+
+/* styling for South American countries  */
+.southAmerica div:nth-of-type(1) {
+    background-image: url("https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=300");
+    background-position: center;
+}
+
+.southAmerica div:nth-of-type(2) {
+    background-image: url("https://images.pexels.com/photos/11545135/pexels-photo-11545135.jpeg?auto=compress&cs=tinysrgb&w=300");
+    background-position: center;
+}
+
+.southAmerica div:nth-of-type(3) {
+    background-image: url("https://images.pexels.com/photos/10575015/pexels-photo-10575015.jpeg?auto=compress&cs=tinysrgb&w=180");
+    background-position: center;
+}
