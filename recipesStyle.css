@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    position: absolute;
+    background-color: black;
+
+}
+
+p {
+    display: inline-block;
+    width: 780px;
+    line-height: 28px;
+    text-align: left;
+
+
+}
+
+
+
+article {
+
+    background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1200");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+/* https://images.pexels.com/photos/5380118/pexels-photo-5380118.jpeg?auto=compress&cs=tinysrgb&w=800 */
+h1 {
+
+    margin-bottom: -10px;
+}
+
+
+
+
+
+a {
+    color: white;
+
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+a:active {
+    color: yellow;
+}
+
+.links {
+    margin-top: 30px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.links img {
+    width: 190px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+table,
+td {
+    border: 1px solid white;
+}
+
+thead,
+tfoot {
+    background-color: white;
+    color: black;
+}
+
+tbody {
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+}
