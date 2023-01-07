@@ -31,6 +31,30 @@ section {
 
 }
 
+.breadCrumbs {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+
+}
+
+.breadCrumbs li::after {
+    content: ">  ";
+}
+
+.breadCrumbs li:last-child::after {
+    content: "";
+}
+
+li a {
+
+    color: black;
+
+}
 
 .rowTwo {
     width: 100vw;
@@ -38,6 +62,8 @@ section {
     display: flex;
     flex-direction: row;
 }
+
+
 
 div {
     width: 10vw;
@@ -62,6 +88,40 @@ div {
     align-items: center;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+
+.pagination {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+
+a:hover {
+    color: aqua;
+
+}
+
+a:active {
+    color: yellow;
+}
+
 .firstPic {
     width: 220px;
     height: 150px;
@@ -70,4 +130,32 @@ div {
 .secondPic {
     width: 92px;
     height: 80px;
+}
+
+@media (max-width:1212px) {
+    body {
+        height: auto;
+        width: auto;
+    }
+
+    div {
+        width: auto;
+        height: auto;
+    }
+
+    .rowOne {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .rowTwo {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondPic {
+        transform: rotate(90deg);
+    }
 }
