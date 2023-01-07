@@ -33,7 +33,7 @@ h1 {
 }
 
 section {
-    width: 85vw;
+    width: 80vw;
     height: 40vh;
 
 
@@ -136,7 +136,7 @@ img {
 
 .pagination {
     display: inline-block;
-    width: 24vw;
+    width: auto;
     height: 10vh;
     margin-top: 20px;
     border-radius: 20px;
@@ -163,4 +163,66 @@ a:hover {
 
 a:active {
     color: yellow;
+}
+
+@media (max-width:835px) {
+
+    body {
+        height: auto;
+    }
+
+    section {
+        height: 70vh;
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+}
+
+@media (max-width:766px) {
+
+    body {
+        height: auto;
+    }
+
+    section {
+        height: 90vh;
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:422px) {
+
+    body {
+        height: auto;
+        text-align: center;
+    }
+
+    section {
+        height: 140vh;
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+
 }
