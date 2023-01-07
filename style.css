@@ -24,6 +24,11 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 
+
+}
+
+.topNav a {
+    font-size: 25px;
 }
 
 
@@ -159,4 +164,43 @@ a:hover {
 
 a:active {
     color: yellow;
+}
+
+@media (max-width:1150px) {
+
+    body {
+        height: auto;
+    }
+
+    section {
+        height: 300vh;
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+}
+
+@media (max-width:765px) {
+
+    body {
+        height: 550vh;
+    }
+
+    section {
+        height: 500vh;
+
+    }
+
+    .pagination {
+        width: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+
 }
