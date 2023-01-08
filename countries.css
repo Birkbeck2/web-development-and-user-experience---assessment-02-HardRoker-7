@@ -46,7 +46,7 @@ section {
 
     margin: 0;
 }
-
+/* since all of them had simialar size requirements grouped them together */
 .mediaTop,
 .mediaMiddle,
 .mediaBottom {
