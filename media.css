@@ -76,7 +76,7 @@ div {
 
 
 
-
+/* wanted the video to be at the top of the div hence applied this style */
 
 video {
     object-position: top;
