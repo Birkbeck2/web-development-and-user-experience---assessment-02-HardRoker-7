@@ -123,6 +123,7 @@ ul {
 .breadCrumbs li::after {
     content: ">  ";
 }
+/* used pseudo element:: after to insert symbol for breadcrumbs and ::after ="" empty to denote to stop after that. */
 
 .breadCrumbs li:last-child::after {
     content: "";
