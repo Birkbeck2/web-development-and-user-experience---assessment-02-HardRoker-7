@@ -29,7 +29,7 @@ section {
 .mediaTop {
 
     display: flex;
-    background-color: #4A8FE7;
+    background-color: black;
     flex-direction: column;
     flex-wrap: wrap;
 
@@ -49,7 +49,7 @@ h2 {
 
     width: 85vw;
     height: 70vh;
-    background-color: #4A8FE7;
+    background-color: black;
     display: flex;
 
     align-items: center;
