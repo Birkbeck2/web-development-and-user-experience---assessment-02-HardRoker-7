@@ -35,7 +35,7 @@ p {
 .topRow a {
     padding: 0 10px 0 10px;
 }
-
+/* wanted the text section to have a background hence used background-image property */
 article {
 
     background-image: url("https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1200");
